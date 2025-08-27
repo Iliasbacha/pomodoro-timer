@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
+  <h1 class="text-3xl font-bold mb-6">🍅 Pomodoro Timer</h1>
+  
+  <!-- Timer Display -->
+  <div id="timer" class="text-6xl font-mono mb-6">25:00</div>
+  
+  <!-- Buttons -->
+  <div class="flex gap-4 mb-6">
+    <button id="startBtn" class="px-6 py-2 bg-green-500 rounded-xl hover:bg-green-600">Start</button>
+    <button id="resetBtn" class="px-6 py-2 bg-red-500 rounded-xl hover:bg-red-600">Reset</button>
+  </div>
+  
+  <!-- Pomodoro Progress -->
+  <div id="progress" class="flex gap-2 text-2xl mb-6"></div>
+  
+  <!-- Reward -->
+  <div id="reward" class="mt-4 text-yellow-400 text-xl"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
